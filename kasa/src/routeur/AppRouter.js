@@ -10,7 +10,8 @@ import FicheLogement from '../pages/FicheLogement';
 
 const AppRouter = () => {
   return (
-    <Router>
+    // Ajout du basename pour correspondre au sous-dossier Portfolio
+    <Router basename="/Portfolio">
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/home" element={<Home />} />
