@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Montserrat Light';
+    src: url('../fonts/Montserrat-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  $white-color: white;
+  * {
+    font-family: 'Montserrat Light', sans-serif;
+  }
+  @import '_variables.scss'; // Assurez-vous que le chemin d'importation est correct
+  @import '_mixins.scss';
+  .caroussel {
+      cursor: pointer;
+      margin-top: 3.5em;
+      width: 100vw;
+      padding-left: 0em;
+    //display: flex;
+    //align-items: center;
+    //justify-content: space-between;
+    .image-wrapper {
+      position: relative;
+      width: 100%; // Ensures the wrapper spans the full width of its parent
+      margin: 0 auto;
+      overflow: hidden; // Keeps everything neat
+  
+      &::before {
+        content: "";
+        display: block;
+        width: 100%;
+        padding-top: 56.25%; // Maintains a 16:9 aspect ratio
+      }
+  
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        //width: 100%;
+        height: 100%;
+        //object-fit: cover; // Ensures the image covers the area properly
+      }
+  
+      .image-number {
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        color: $white-color;
+        font-size: 24px;
+        z-index: 2; // Ensures visibility over the image
+      }
+  
+      .button-left, .button-right {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        z-index: 1;
+      }
+  
+      .button-left {
+        left: 0;
+      }
+  
+      .button-right {
+        right: 0;
+      }
+    }
+  }
+  @include respond-to('mobile') {
+  .caroussel {
+      cursor: pointer;
+      margin-top: 0em;
+      width: 100%;
+      padding-left: 0em;
+  }
+}

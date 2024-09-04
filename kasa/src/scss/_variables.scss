@@ -1,0 +1,18 @@
+// Couleurs principales
+$white: #ffffff;
+$black: #000000;
+$light-gray: #f5f5f5;
+
+// Tailles de fonte
+$font-size-base: 16px; // Taille de base
+$font-size-large: 20px; // Taille large
+$font-size-small: 12px; // Taille petite
+
+// Points de rupture pour le responsive design
+$breakpoint-mobile: 767.98px; // Largeur maximale pour les mobiles
+$breakpoint-tablet: 1200px; // Largeur maximale pour les tablettes
+$breakpoint-desktop: 1440px; // Largeur maximale pour les desktops
+
+// Breakpoints spécifiques pour iPhone SE et Samsung Galaxy S8+
+$breakpoint-iphone-se: 375px; // Largeur maximale pour l'iPhone SE
+$breakpoint-samsung-s8: 360px; // Largeur maximale pour le Samsung Galaxy S8+

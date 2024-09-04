@@ -1,0 +1,74 @@
+@import '_variables.scss'; // Contient les breakpoints et autres variables globales
+@import '_mixins.scss'; // Contient les mixins pour les media queries
+
+@font-face {
+  font-family: 'Montserrat Light';
+  src: url('../fonts/Montserrat-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Montserrat Light', sans-serif;
+}
+
+
+.footer {
+  width: 100%;
+  height: auto; // La hauteur s'ajuste au contenu
+  position: relative;
+  background-color: #e6e6fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 0; // Padding pour desktop
+
+  &-logo {
+    width: 160px; // Taille pour desktop
+    height: auto; // Hauteur auto pour maintenir le ratio
+    margin-bottom: 20px; // Espace sous le logo pour desktop
+  }
+
+  .img_logo_footer {
+    display: block; // S'assure que l'image prend toute la largeur du .footer-logo
+  }
+
+  .text {
+    color: white;
+    font-size: 26px; // Plus grande taille de police pour desktop
+    margin-top: 20px; // Espace au-dessus du texte pour desktop
+  }
+}
+
+// Styles pour mobile
+@include respond-to('mobile') {
+  .footer {
+    max-width: 100%;
+    /* margin-top: 33px; */
+    width: 100%;
+    height: 200px;
+    position: relative;
+    background-color: #000000;
+    padding: 20px 0; // Padding réduit pour mobile
+    margin-top: 2em;
+    //&-logo = .footer-logo ?
+    &-logo {
+      width: 120px; // Taille réduite pour mobile
+      margin-bottom: 10px; // Espace sous le logo réduit pour mobile
+    }
+    .footer-logo {
+      width: 160px;
+      height: auto;
+      margin-bottom: 0px;
+  }
+  //.text = .footer .text là je crois en l'occurence.
+    .text {
+      font-size: 10.5px;
+    }
+    .footer .text {
+      font-size: 15px;
+      padding-bottom: 0em;
+  }
+  }
+}
