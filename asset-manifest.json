@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/P7/static/css/main.34a068e2.css",
-    "main.js": "/P7/static/js/main.e6627d0b.js",
-    "static/js/592.dad3ac87.chunk.js": "/P7/static/js/592.dad3ac87.chunk.js",
-    "static/media/imgAbout.svg": "/P7/static/media/imgAbout.48cf6a97c52df4c0365dfadc4cf00c05.svg",
-    "static/media/Montserrat-Light.otf": "/P7/static/media/Montserrat-Light.dcccd61bf06aba5c5c99.otf",
-    "static/media/logoKasa.svg": "/P7/static/media/logoKasa.b986a21599af063f6084cfcb48b09886.svg",
-    "static/media/matrix.svg": "/P7/static/media/matrix.245d15ffa24d8269ded6af73acbaa8d6.svg",
-    "static/media/etoilepleine.svg": "/P7/static/media/etoilepleine.ba873f2b6213e563f776929ebc7ed4ac.svg",
-    "static/media/etoilevide.svg": "/P7/static/media/etoilevide.b0d9e2635065fbf59602efeb91c7b390.svg",
-    "index.html": "/P7/index.html",
-    "static/media/ddmenuclosed.svg": "/P7/static/media/ddmenuclosed.2315f85335b3b6805ba7666d56cbc6aa.svg",
-    "static/media/vectord.svg": "/P7/static/media/vectord.88153a5d119c2744ffe34dca1ef843df.svg",
-    "static/media/vectorg.svg": "/P7/static/media/vectorg.19918a1634b1441a25ae0b50e6b1f85b.svg",
-    "main.34a068e2.css.map": "/P7/static/css/main.34a068e2.css.map",
-    "main.e6627d0b.js.map": "/P7/static/js/main.e6627d0b.js.map",
-    "592.dad3ac87.chunk.js.map": "/P7/static/js/592.dad3ac87.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.b37f4e60.css",
+    "main.js": "/Portfolio/static/js/main.5470ca94.js",
+    "static/js/592.dad3ac87.chunk.js": "/Portfolio/static/js/592.dad3ac87.chunk.js",
+    "static/media/imgAbout.svg": "/Portfolio/static/media/imgAbout.48cf6a97c52df4c0365dfadc4cf00c05.svg",
+    "static/media/Montserrat-Light.otf": "/Portfolio/static/media/Montserrat-Light.dcccd61bf06aba5c5c99.otf",
+    "static/media/logoKasa.svg": "/Portfolio/static/media/logoKasa.b986a21599af063f6084cfcb48b09886.svg",
+    "static/media/matrix.svg": "/Portfolio/static/media/matrix.245d15ffa24d8269ded6af73acbaa8d6.svg",
+    "static/media/etoilepleine.svg": "/Portfolio/static/media/etoilepleine.ba873f2b6213e563f776929ebc7ed4ac.svg",
+    "static/media/etoilevide.svg": "/Portfolio/static/media/etoilevide.b0d9e2635065fbf59602efeb91c7b390.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/ddmenuclosed.svg": "/Portfolio/static/media/ddmenuclosed.2315f85335b3b6805ba7666d56cbc6aa.svg",
+    "static/media/vectord.svg": "/Portfolio/static/media/vectord.88153a5d119c2744ffe34dca1ef843df.svg",
+    "static/media/vectorg.svg": "/Portfolio/static/media/vectorg.19918a1634b1441a25ae0b50e6b1f85b.svg",
+    "main.b37f4e60.css.map": "/Portfolio/static/css/main.b37f4e60.css.map",
+    "main.5470ca94.js.map": "/Portfolio/static/js/main.5470ca94.js.map",
+    "592.dad3ac87.chunk.js.map": "/Portfolio/static/js/592.dad3ac87.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34a068e2.css",
-    "static/js/main.e6627d0b.js"
+    "static/css/main.b37f4e60.css",
+    "static/js/main.5470ca94.js"
   ]
 }
